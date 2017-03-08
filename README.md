@@ -1,3 +1,10 @@
+# DTCalendar
+DTMediasViewController
+[![Swift](https://img.shields.io/badge/Swift-3.0-ff3f26.svg?style=flat)](https://swift.org/)
+[![Platform](https://img.shields.io/cocoapods/p/DTMediasViewController.svg?style=flat)](http://cocoadocs.org/docsets/DTMediasViewController)
+[![CocoaPods](http://img.shields.io/cocoapods/v/DTMediasViewController.svg)](https://cocoapods.org/pods/DTMediasViewController)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 ## Introduction
 
 ![Demo](Demo.gif)
@@ -8,7 +15,7 @@ Browse photo, gif and video. Swipe left or right to see next or previous. Pinch 
 
 ### Requirement
 
-iOS 8+
+iOS 8.4+
 
 ### [CocoaPods](http://cocoapods.org)
 
