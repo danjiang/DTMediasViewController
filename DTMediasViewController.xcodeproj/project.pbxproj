@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40A6B2741EF6449400D10C3C /* DTMediasViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40A6B2731EF6449400D10C3C /* DTMediasViewController.bundle */; };
 		40B0A0871D7966F3001E0393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B0A0861D7966F3001E0393 /* AppDelegate.swift */; };
 		40B0A0891D7966F3001E0393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B0A0881D7966F3001E0393 /* ViewController.swift */; };
 		40B0A08C1D7966F3001E0393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B0A08A1D7966F3001E0393 /* Main.storyboard */; };
@@ -22,15 +23,10 @@
 		40E2968A1D87A1CF00A123BF /* DTPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E2967C1D87A1CF00A123BF /* DTPhotoViewController.swift */; };
 		40E2968B1D87A1CF00A123BF /* DTPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E2967D1D87A1CF00A123BF /* DTPlayerView.swift */; };
 		40E2968C1D87A1CF00A123BF /* DTVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E2967E1D87A1CF00A123BF /* DTVideoViewController.swift */; };
-		40E2968E1D87A1CF00A123BF /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E296801D87A1CF00A123BF /* pause.png */; };
-		40E2968F1D87A1CF00A123BF /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E296811D87A1CF00A123BF /* pause@2x.png */; };
-		40E296901D87A1CF00A123BF /* pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E296821D87A1CF00A123BF /* pause@3x.png */; };
-		40E296911D87A1CF00A123BF /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E296831D87A1CF00A123BF /* play.png */; };
-		40E296921D87A1CF00A123BF /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E296841D87A1CF00A123BF /* play@2x.png */; };
-		40E296931D87A1CF00A123BF /* play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E296851D87A1CF00A123BF /* play@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40A6B2731EF6449400D10C3C /* DTMediasViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DTMediasViewController.bundle; path = Sources/DTMediasViewController.bundle; sourceTree = SOURCE_ROOT; };
 		40B0A0721D7964A0001E0393 /* DTMediasViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTMediasViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B0A0841D7966F3001E0393 /* DTMediasViewController iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DTMediasViewController iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B0A0861D7966F3001E0393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,12 +45,6 @@
 		40E2967D1D87A1CF00A123BF /* DTPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTPlayerView.swift; path = Sources/DTPlayerView.swift; sourceTree = SOURCE_ROOT; };
 		40E2967E1D87A1CF00A123BF /* DTVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTVideoViewController.swift; path = Sources/DTVideoViewController.swift; sourceTree = SOURCE_ROOT; };
 		40E2967F1D87A1CF00A123BF /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = SOURCE_ROOT; };
-		40E296801D87A1CF00A123BF /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = Sources/pause.png; sourceTree = SOURCE_ROOT; };
-		40E296811D87A1CF00A123BF /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pause@2x.png"; path = "Sources/pause@2x.png"; sourceTree = SOURCE_ROOT; };
-		40E296821D87A1CF00A123BF /* pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pause@3x.png"; path = "Sources/pause@3x.png"; sourceTree = SOURCE_ROOT; };
-		40E296831D87A1CF00A123BF /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = Sources/play.png; sourceTree = SOURCE_ROOT; };
-		40E296841D87A1CF00A123BF /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "play@2x.png"; path = "Sources/play@2x.png"; sourceTree = SOURCE_ROOT; };
-		40E296851D87A1CF00A123BF /* play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "play@3x.png"; path = "Sources/play@3x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,12 +97,7 @@
 				40E2967E1D87A1CF00A123BF /* DTVideoViewController.swift */,
 				40E2967D1D87A1CF00A123BF /* DTPlayerView.swift */,
 				40E296781D87A1CF00A123BF /* DTMedia.swift */,
-				40E296801D87A1CF00A123BF /* pause.png */,
-				40E296811D87A1CF00A123BF /* pause@2x.png */,
-				40E296821D87A1CF00A123BF /* pause@3x.png */,
-				40E296831D87A1CF00A123BF /* play.png */,
-				40E296841D87A1CF00A123BF /* play@2x.png */,
-				40E296851D87A1CF00A123BF /* play@3x.png */,
+				40A6B2731EF6449400D10C3C /* DTMediasViewController.bundle */,
 			);
 			name = Sources;
 			path = "DTMediasViewController iOS/Sources";
@@ -235,12 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E296901D87A1CF00A123BF /* pause@3x.png in Resources */,
-				40E296931D87A1CF00A123BF /* play@3x.png in Resources */,
-				40E296911D87A1CF00A123BF /* play.png in Resources */,
-				40E296921D87A1CF00A123BF /* play@2x.png in Resources */,
-				40E2968E1D87A1CF00A123BF /* pause.png in Resources */,
-				40E2968F1D87A1CF00A123BF /* pause@2x.png in Resources */,
+				40A6B2741EF6449400D10C3C /* DTMediasViewController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +320,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
@@ -365,7 +344,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
@@ -418,6 +396,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -475,6 +454,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.danthought.DTMediasViewController-iOS";

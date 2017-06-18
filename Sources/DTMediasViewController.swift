@@ -16,6 +16,13 @@ public class DTMediasViewController: UIPageViewController {
   
   public var handler: DTMediasViewControllerPhotoURLHandler?
   
+  public static func imageWithName(_ name: String) -> UIImage? {
+    let bundle = Bundle(for: DTMediasViewController.self)
+    let url = bundle.url(forResource: "DTMediasViewController", withExtension: "bundle")!
+    let imageBundle = Bundle(url: url)
+    return UIImage(named: name, in: imageBundle, compatibleWith: nil)
+  }
+  
   fileprivate var mediaViewControllers = [Int: DTMediaViewController]()
   fileprivate var currentPage = 0
   fileprivate var medias: [DTMedia]

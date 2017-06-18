@@ -22,11 +22,11 @@ class DTVideoViewController: DTMediaViewController {
         if play {
           canAutoPlay = false
           playerView.player?.play()
-          controlButton.setImage(imageWithName("pause"), for: .normal)
+          controlButton.setImage(DTMediasViewController.imageWithName("pause"), for: .normal)
           showControlButtonWithAutoHidden()
         } else {
           playerView.player?.pause()
-          controlButton.setImage(imageWithName("play"), for: .normal)
+          controlButton.setImage(DTMediasViewController.imageWithName("play"), for: .normal)
           controlButton.isHidden = false
         }
       }
@@ -121,11 +121,6 @@ class DTVideoViewController: DTMediaViewController {
   
   // MARK: - Private
   
-  fileprivate func imageWithName(_ name: String) -> UIImage? {
-    let bundle = Bundle(for: DTVideoViewController.self)
-    return UIImage(named: name, in: bundle, compatibleWith: nil)
-  }
-  
   fileprivate func layoutIndicatorView() {
     indicatorView.hidesWhenStopped = true
     
@@ -157,7 +152,7 @@ class DTVideoViewController: DTMediaViewController {
   fileprivate func layoutControlButton() {
     controlButton.isHidden = true
     
-    controlButton.setImage(imageWithName("play"), for: .normal)
+    controlButton.setImage(DTMediasViewController.imageWithName("play"), for: .normal)
     controlButton.addTarget(self, action: #selector(controlPlay), for: .touchUpInside)
     
     view.addSubview(controlButton)
